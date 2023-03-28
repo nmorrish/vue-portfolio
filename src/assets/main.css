@@ -1,0 +1,39 @@
+@import './bootstrap/css/bootstrap.min.css';
+
+:root{
+    --primary-font-color: #7cffe9;
+}
+
+body{
+    background-color: #013748;
+
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:1.5rem;
+    color:var(--primary-font-color);
+}
+
+hr{
+    border: 1px solid var(--primary-font-color);
+ }
+
+a{
+    color:#faad25;
+    transition: color 0.3s;
+}
+a:hover{
+    color:#da6913;
+    text-decoration: none;
+}
+
+.external-media a{
+    margin:0 0.5rem;
+  }
+
+.external-media{
+    display: flex;
+    justify-content: center;
+}
+
+.external-media svg{
+    height: 2rem;
+}
