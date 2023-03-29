@@ -24,7 +24,7 @@ import WebDesignIcon from './icons/WebDesignIcon.vue'
     <div class="container">
         <hr class="section-break">
         <p>
-            I have always had a passion for building. As a kid, it was construction paper and Lego. I have since added websites and software to my passion for building things. I am always looking for new and innovative ways to build good websites and software applications. Here's a list of the tools under my belt:
+            Innovative and result-driven Software Developer with 2+ years of experience spanning software architecture, object-oriented programming, website design and database architecture. Proven track record in supporting company-wide technology projects and adopting agile & lean methodologies — assisting SDLC, gathering requirements & user stories, identifying product roadmaps & value streams, influencing full stack development, database design, code debugging, unit testing and technical documentation.
         </p>
         <ul>
             <li><span><DotNetLogo/></span><span>NET Core Framework</span></li>
@@ -44,8 +44,8 @@ import WebDesignIcon from './icons/WebDesignIcon.vue'
             <li><span><Noteboard/></span><span>Technical Documentation</span></li>
         </ul>
         <hr class="section-break">
-        <h2>My Works</h2>
-        <p>Here is a small selection of the websites I have built</p>
+        <h2>A selection of what I have done</h2>
+        <p>These projects are publicly visible and not covered under NDA</p>
         <div class="project-previews">
             <ProjectPreviewComponent previewTitle="The Academy of European Swordsmanship" previewImage="./assets/swordsmanship.ca-600x320.png" siteUrl="https://swordsmanship.ca"/>
 
@@ -58,7 +58,7 @@ import WebDesignIcon from './icons/WebDesignIcon.vue'
             <p>
                 <span>Email me at </span>
                 <span><a href="mailto:nick.morrish@m-is.net">nick.morrish@m-is.net</a></span>
-                <span> Let me know what you need and I will get back to you as soon as possible.</span>
+                <span>I look forward to hearing from you.</span>
             </p>
         </div>
         <hr class="section-break">
