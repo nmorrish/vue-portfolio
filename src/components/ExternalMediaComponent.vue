@@ -8,7 +8,7 @@ import EnvelopeLogo from './icons/EnvelopeLogo.vue';
 <template>
     <div class="external-media">
       <a href="https://github.com/nmorrish" target="_blank"><GithubLogo/></a>
-      <a href="https://github.com/nmorrish" target="_blank"><LinkedInLogo/></a>
+      <a href="https://www.linkedin.com/in/nicholas-morrish/" target="_blank"><LinkedInLogo/></a>
       <a href="mailto:nick.morrish@m-is.net" target="_blank"><EnvelopeLogo/></a>
     </div>
 </template>
