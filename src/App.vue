@@ -14,8 +14,12 @@
   </header>
   <hr class="section-break">
   <main>
-    <!-- <Body /> -->
-    <RouterView />
+    
+    <router-view v-slot="{ Component }">
+      <transition name="scale">
+        <component :is="Component" />
+      </transition>
+    </router-view>
   </main>
   <hr class="section-break">
   <footer>
@@ -24,6 +28,21 @@
 </template>
 
 <style scoped>
+
+  .scale-enter-active,
+  .scale-leave-active {
+    transition: all 0.5s ease;
+  }
+  .scale-enter-from,
+  .scale-leave-to {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  .scale-leave-active.scale-leave-to{
+    display: none;
+  }
+
   nav{
     display:flex;
     justify-content: center;
