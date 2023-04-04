@@ -2,6 +2,8 @@
 
 :root{
     --primary-font-color: #7cffe9;
+    --link-font-color: #faad25;
+    --link-hover-color: #da6913;
 }
 
 body{
@@ -17,11 +19,11 @@ hr{
  }
 
 a{
-    color:#faad25;
+    color: var(--link-font-color);
     transition: color 0.3s;
 }
 a:hover{
-    color:#da6913;
+    color: var(--link-hover-color);
     text-decoration: none;
 }
 
@@ -36,4 +38,9 @@ a:hover{
 
 .external-media svg{
     height: 2rem;
+}
+
+.section-break{
+    margin:3.5rem auto;
+    max-width:70%
 }

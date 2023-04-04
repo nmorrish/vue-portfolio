@@ -1,9 +1,3 @@
-<script setup>
-//import external media links
-import MediaLinks from '../components/ExternalMediaComponent.vue'
-
-</script>
-
 <template>
     <div class="d-flex justify-content-center name-title">
       <img alt="Nick Morrish" class="logo" src="../assets/images/profile-image.jpg" width="125" height="125" />
@@ -12,8 +6,6 @@ import MediaLinks from '../components/ExternalMediaComponent.vue'
         <h3>Full Stack Developer</h3>
       </div>
     </div>
-    
-    <MediaLinks/>
   </template>
 
 <script>
