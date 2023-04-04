@@ -1,6 +1,5 @@
 <template>
 <svg id="svg3430" version="1.1" viewBox="0 0 711.20123 383.5975" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg">
-  <title id="title3510">Official PHP Logo</title>
   <metadata id="metadata3436">
     <rdf:RDF>
       <cc:Work rdf:about="">
