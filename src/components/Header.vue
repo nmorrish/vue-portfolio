@@ -35,7 +35,7 @@
 
   @media(max-width:800px) {
     .name-title{
-      padding-top:4rem;
+      padding-top:1rem;
       align-items: left;
       padding-bottom:0;
       flex-direction: column;

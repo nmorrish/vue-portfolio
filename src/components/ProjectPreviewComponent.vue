@@ -30,6 +30,7 @@
     .preview{
         width: 600px;
         height: 320px;
+        margin-top:2rem;
         position: relative;
         text-align: center;
         -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
@@ -83,6 +84,7 @@
             -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
             box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
             font-size:1.8rem;
+            left:15px;
         }
         .website-preview-img{
             background-position: center; 

@@ -46,13 +46,22 @@
   nav{
     display:flex;
     justify-content: center;
+    flex-direction: row;
     column-gap: 3rem;
-    margin-top:2rem;
+    margin-top:1rem;
     font-size:1.8rem;
   }
 
   nav a.router-link-exact-active {
     color: var(--primary-font-color);
     transition: color 0.5s;
+  }
+
+  @media(max-width:800px) {
+    nav{
+      margin-top:1rem;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 </style>
